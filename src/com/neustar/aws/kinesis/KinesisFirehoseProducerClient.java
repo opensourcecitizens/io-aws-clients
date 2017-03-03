@@ -27,7 +27,6 @@ import java.nio.ByteBuffer;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-
 /**
  * Sends messages to specified Kinesis Stream in aws_producer.props resource.
  * This is dependent on credentials file which has implications on kinesis stream instance on AWS and region.

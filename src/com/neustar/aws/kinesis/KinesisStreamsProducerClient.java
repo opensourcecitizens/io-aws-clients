@@ -70,6 +70,7 @@ public class KinesisStreamsProducerClient<T>{
         }
 
         kinesis = new AmazonKinesisClient(credentials);
+        
 
 	}
 	

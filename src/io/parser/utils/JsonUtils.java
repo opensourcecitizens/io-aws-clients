@@ -10,7 +10,7 @@ public class JsonUtils {
 	
 	public  synchronized Map<String,? extends Object> parseJsonData(byte[] jsondata) throws Exception{
 		ObjectMapper mapper = new ObjectMapper();
-		Map<String,?> map =  mapper.readValue(jsondata, new TypeReference<Map<String, ?>>(){});
+		Map<String,? extends Object> map =  mapper.readValue(jsondata, new TypeReference<Map<String, ? extends Object>>(){});
 
 		return map;
 	}
